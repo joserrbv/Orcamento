@@ -218,7 +218,7 @@ const Orcamento = () => {
             />
           </div>
 
-          {/* Novo campo para data do orçamento */}
+          {/* Novo campo para Data do orçamento */}
           <div>
             <label>Data do Orçamento: </label>
             <input
@@ -230,9 +230,9 @@ const Orcamento = () => {
             />
           </div>
 
-          {/* Novo campo para Cidade estado  do orçamento */}
+          {/* Novo campo para Cidade e Estado  do orçamento */}
           <div>
-            <label>Cidade estado do Orçamento: </label>
+            <label>Cidade e Estado do Orçamento: </label>
             <input
               type="text"
               name="cityOrcamento"
