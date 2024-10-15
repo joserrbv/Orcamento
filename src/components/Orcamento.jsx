@@ -220,7 +220,7 @@ const Orcamento = () => {
 
           {/* Novo campo para data do orçamento */}
           <div>
-            <label>Data do Orçamento: cityOrcamento</label>
+            <label>Data do Orçamento: </label>
             <input
               type="text"
               name="dateOrcamento"
