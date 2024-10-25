@@ -2,10 +2,14 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 // import App from './App.jsx'
 import './index.css'
-import Orcamento from './components/Orcamento.jsx'
+// import Orcamento from './components/Orcamento.jsx'
+import OrcamentoDoc from './components/OrcamentoDoc.jsx'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Orcamento />
+    {/* <Orcamento /> */}
+    <OrcamentoDoc />
+    
   </StrictMode>,
 )
