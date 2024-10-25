@@ -337,7 +337,7 @@ page: {
       <div id='conteudo' ref={ref} style={{ margin: '20px', padding: '20px' }}>
         <h2>Orçamento</h2>
         
-        <div>
+        <div id='primeiroMomento'>
         <p>Identificação do(a) CONTRATADO(A): {primeiroMomento.nomeContratado}</p>
         <p>CNPJ Nº {primeiroMomento.cpfCnpjContratado}</p>
         <p>Representante Legal: {primeiroMomento.representanteLegal}</p>
@@ -346,18 +346,18 @@ page: {
         </div>
         <p>Referente: {segundoMomento.referente}</p>
 
-        <p>O presente orçamento referente a prestação de serviço, declara ao(à) CONTRATANTE, {segundoMomento.nomeContratante}, sociedade empresária inscrita no CNPJ sob o nº {segundoMomento.cpfCnpjContratante}, com sede na {segundoMomento.enderecoContratante}, e endereço eletrônico: {segundoMomento.emailContratante}, representado por {segundoMomento.representanteLegalContratante}, que o valor do(a) serviço, ofertado(s) pelo CONTRATADO(A), é de R$ {segundoMomento.valorServico} reais.</p>
+        <p id='justificado'> O presente orçamento referente a prestação de serviço, declara ao(à) CONTRATANTE, {segundoMomento.nomeContratante}, sociedade empresária inscrita no CNPJ sob o nº {segundoMomento.cpfCnpjContratante}, com sede na {segundoMomento.enderecoContratante}, e endereço eletrônico: {segundoMomento.emailContratante}, representado por {segundoMomento.representanteLegalContratante}, que o valor do(a) serviço, ofertado(s) pelo CONTRATADO(A), é de R$ {segundoMomento.valorServico} reais.</p>
 
         <p> <strong>O(s) Item(ns) em questão, sua(s) quantidade(s) e seu(s) respectivo(s) valor(es) são:</strong></p>
-        <p>{terceiroMomento.itensEquantidades}</p>
+        <p id='justificado'>{terceiroMomento.itensEquantidades}</p>
         <p></p>
 
         <p><strong>Execução e remuneração</strong></p>
         <ol>
-          <li> O prazo de execução é de {terceiroMomento.diaCorrido}, iniciando o serviço de acordo com a data acertada após aprovação desse orçamento.</li>
-          <li> O(a) CONTRATANTE se compromete a pagar de maneira {terceiroMomento.parceladaOuunica} ao(à) CONTRATADO(A), por meio de transferência bancária, para o Banco {terceiroMomento.banco}, Agencia {terceiroMomento.agencia}, Conta nº {terceiroMomento.conta}, PIX nº {terceiroMomento.pix}, o valor de R$ {segundoMomento.valorServico} reais, em {terceiroMomento.parcelas} de R$ {terceiroMomento.valorParcelas} reais, com o primeiro vencimento no início do serviço e as demais no término do serviço.</li>
+          <li id='justificado'> O prazo de execução é de {terceiroMomento.diaCorrido}, iniciando o serviço de acordo com a data acertada após aprovação desse orçamento.</li>
+          <li id='justificado'> O(a) CONTRATANTE se compromete a pagar de maneira {terceiroMomento.parceladaOuunica} ao(à) CONTRATADO(A), por meio de transferência bancária, para o Banco {terceiroMomento.banco}, Agencia {terceiroMomento.agencia}, Conta nº {terceiroMomento.conta}, PIX nº {terceiroMomento.pix}, o valor de R$ {segundoMomento.valorServico} reais, em {terceiroMomento.parcelas} de R$ {terceiroMomento.valorParcelas} reais, com o primeiro vencimento no início do serviço e as demais no término do serviço.</li>
           <ul>
-            <li>
+            <li id='justificado'>
             a.	O preço proposto acima comtempla todas as despesas necessárias ao pleno fornecimento, tais como obrigações sociais, impostos, taxas, etc. Contando que não seja necessário a utilização de Andaime.
           
             </li>
