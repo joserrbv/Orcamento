@@ -83,10 +83,10 @@ page: {
 
   return (
     <div >
-      <h2>Primeiro Momento</h2>
+      <h2>Acompanhe sua edição, no texto após os formulários</h2>
       <form>
         <label>
-          Nome Completo do CONTRATADO(A):
+          Nome Completo do Cliente:
           <input
             type="text"
             name="nomeContratado"
@@ -149,7 +149,7 @@ page: {
         </label>
         <br />
         <label>
-          Nome Completo do CONTRATANTE:
+          Nome Completo do Profissional ou Empresa:
           <input
             type="text"
             name="nomeContratante"
